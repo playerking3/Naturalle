@@ -1,4 +1,18 @@
+:root{
+	--background: #F5FBF4;
+	--primary-light: #CBE9CA;
+	--primary: #2DA629;
+	--primary-dark: #227D1F;
+	--sec-light: #CBA5CB;
+	--secundary: #7D1F7C;
+	--sec-dark: #5E175D;
+}
+
 [class^="col"], [class*=" col"]{
 	margin: 0;
 	padding: 0;
+}
+
+.logo{
+	height: 2.5rem;
 }
