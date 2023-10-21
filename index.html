@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/img/ShortLogo.png" type="image/png">
     <link rel="stylesheet" href="assets/style/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
@@ -11,25 +12,25 @@
     <title>Naturalle | Página inicial</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top cabeca" style="background-color: #2DA629">
+    <nav class="navbar navbar-expand-lg fixed-top shadow" style="background-color: #2DA629">
         <div class="container-fluid">
             <a class="navbar-brand d-lg-none">
                 <img src="assets/img/ShortLogo.png" alt="Logo Naturalle" class="logo">
             </a>
-            <a class="navbar-brand d-sm-none d-lg-block">
+            <a class="navbar-brand d-none d-lg-block">
                 <img src="assets/img/BigLogo.png" alt="Logo Naturalle"  class="logo">
             </a>
             <form class="d-flex" role="search">
-                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn" type="submit">Search</button>
+                <input class="form-control rounded-start-pill" type="search" placeholder="Pesquisar produtos" aria-label="Search">
+                <button class="btn rounded-end-pill pesquisa" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <button class="navbar-toggler burger" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <i class="fa-solid fa-bars"></i>
             </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas offcanvas-end flex-grow-0" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
-                    <p class="offcanvas-title" id="offcanvasNavbarLabel"><i class="fa-solid fa-circle-user"></i> Entrar em sua conta</p>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <a class="offcanvas-title nav-link" aria-current="page" href="#" id="offcanvasNavbarLabel"><i class="fa-solid fa-circle-user fa-xl"></i> Entrar em sua conta</a>
+                    <button type="button" class="fechar btn" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
                 </div>
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
@@ -43,12 +44,18 @@
                             <a class="nav-link" aria-current="page" href="#">Saúde</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link d-sm-none d-lg-block" aria-current="page" href="#"><i class="fa-solid fa-circle-user"></i></a>
+                            <a class="nav-link d-none d-lg-block cart" aria-current="page" href="#"><i class="fa-solid fa-cart-shopping fa-lg"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-none d-lg-block usuario" aria-current="page" href="#"><i class="fa-solid fa-circle-user fa-xl"></i></a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
     </nav>
+    <main class="container-fluid">
+        
+    </main>
 </body>
 </html>

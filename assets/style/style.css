@@ -16,3 +16,36 @@
 .logo{
 	height: 2.5rem;
 }
+
+.pesquisa{
+	background: var(--primary-dark) !important;
+}
+
+.burger{
+	border: none !important;
+}
+
+.offcanvas{
+	background: var(--primary) !important;
+}
+
+.offcanvas-header{
+	border-bottom: solid 2px var(--background);
+}
+
+.offcanvas, .pesquisa, .burger, .nav-link, .fechar{
+	color: var(--background) !important;
+}
+
+.nav-link:hover{
+	font-weight: bold;
+}
+
+.usuario{
+	padding-left: 1rem !important;
+	border-left: solid 2px var(--background) !important;
+}
+
+.cart{
+	padding-right: 1rem !important;
+}
