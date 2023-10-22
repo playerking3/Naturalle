@@ -15,7 +15,7 @@
 /*font-family: 'Merienda', cursive; logo e titulos*/
 }
 
-h4, [class^="col"], [class*=" col"]{
+p, h4, [class^="col"], [class*=" col"]{
 	margin: 0;
 	padding: 0;
 }
@@ -59,4 +59,12 @@ h4, [class^="col"], [class*=" col"]{
 
 .promoimg{
 	height: 40vh;
+}
+
+.preco{
+	color: var(--primary);
+}
+
+.avalia{
+	color: var(--sec-dark);
 }
