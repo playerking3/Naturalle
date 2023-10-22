@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Merienda&display=swap');
+
 :root{
 	--background: #F5FBF4;
 	--primary-light: #CBE9CA;
@@ -8,7 +10,12 @@
 	--sec-dark: #5E175D;
 }
 
-[class^="col"], [class*=" col"]{
+*{
+	font-family: 'Comfortaa', sans-serif;
+/*font-family: 'Merienda', cursive; logo e titulos*/
+}
+
+h4, [class^="col"], [class*=" col"]{
 	margin: 0;
 	padding: 0;
 }
@@ -48,4 +55,8 @@
 
 .cart{
 	padding-right: 1rem !important;
+}
+
+.promoimg{
+	height: 40vh;
 }
