@@ -15,7 +15,7 @@
 /*font-family: 'Merienda', cursive; logo e titulos*/
 }
 
-p, h4, [class^="col"], [class*=" col"]{
+p, h2, h4, ul,  [class^="col"], [class*=" col"]{
 	margin: 0;
 	padding: 0;
 }
@@ -67,4 +67,26 @@ p, h4, [class^="col"], [class*=" col"]{
 
 .avalia{
 	color: var(--sec-dark);
+}
+
+.receitaSection{
+	background-color: var(--sec-dark);
+}
+
+.cursivo{
+	font-family: 'Merienda', cursive;
+}
+
+.imagem{
+	background-image: url(../img/panqueca.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 95%;
+	height: 60vh;
+	box-shadow: 0px 76px 28px 0px rgba(0, 0, 0, 0.50) inset;
+}
+
+.ponta{
+	scale: 3;
+	overflow: visible !important;
 }
