@@ -1,3 +1,9 @@
+pontuacao = document.getElementById('pontuacao');
+progresso = document.getElementById('progresso');
+pts = Math.floor(Math.random()*100);
+pontuacao.innerHTML = pts + " Pts"
+progresso.style.width = pts + "%"
+
 function avalia(elemento){
     let pai = elemento.parentElement;
     let qty = pai.childElementCount;
@@ -13,3 +19,5 @@ function avalia(elemento){
         }
     }
 }
+
+
